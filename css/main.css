@@ -807,6 +807,11 @@ height: 118px;
 		 
 		
 	}
+
+
+.logomobile {
+	display:none;
+}
 	
 	
 	#top:hover {
@@ -864,3 +869,76 @@ color: #f39200;
 		
 text-decoration:none;
 	}
+	
+	@media (max-width: 359px) {
+	
+.slides {
+  display: none;
+  height:100px;
+}
+
+section {
+    min-width: 359px;
+    max-height: 300px;
+    opacity: 0;
+}
+
+H2 {
+	font-size:12px;	
+}
+
+.hsContainer {
+	width:370px;	
+}
+
+#phone {
+	font-size:16px;	
+	width:179px;
+	float:left;
+	margin-top:10px;
+	margin-left:150px;
+
+
+}
+.emailtop {
+	font-size:12px;	
+}
+
+#logo {
+	
+}
+
+.logosize {	
+display: none;
+}
+
+.logomobile {
+	display:block;
+	
+}
+
+menu,
+ol,
+ul {
+    padding: 0 0 0 0px;
+	margin-top:0px;
+}
+
+#menuline {
+    float: left;
+    text-align: right;
+	margin-top:-60px;
+ width:370px;
+}
+
+#contact {
+	margin-top:10px;
+	position:absolute;
+	float:left;
+}
+.hsContent {
+	height:100px;	
+}
+
+	
+}
