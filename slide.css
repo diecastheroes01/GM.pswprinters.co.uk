@@ -30,7 +30,7 @@ header a.stuts,a.stuts:visited{
     text-decoration:none;
     color:#fcfcfc;
     font-size:14px;
-    left:50%;
+    left:0%;
     line-height:31px;
     margin:23px 0 0 110px;
     position:absolute;
@@ -60,6 +60,7 @@ header .stuts span {
 @-webkit-keyframes anim_slides {
     0% {
         opacity:0;
+		left:0px;
     }
     6% {
         opacity:1;
@@ -69,14 +70,17 @@ header .stuts span {
     }
     30% {
         opacity:0;
+		left:0px;
     }
     100% {
         opacity:0;
+		left:0px;
     }
 }
 @-moz-keyframes anim_slides {
     0% {
         opacity:0;
+		left:0px;
     }
     6% {
         opacity:1;
@@ -89,6 +93,7 @@ header .stuts span {
     }
     100% {
         opacity:0;
+		left:0px;
     }
 }
 
@@ -134,8 +139,8 @@ header .stuts span {
 /* keyframes #anim_titles */
 @-webkit-keyframes anim_titles {
     0% {
-        left:100%;
-        opacity:0;
+        left:0%;
+        opacity:1;
     }
     5% {
         left:10%;
@@ -147,17 +152,17 @@ header .stuts span {
     }
     25% {
         left:100%;
-        opacity:0;
+        opacity:1;
     }
     100% {
         left:100%;
-        opacity:0;
+        opacity:1;
     }
 }
 @-moz-keyframes anim_titles {
     0% {
-        left:100%;
-        opacity:0;
+        left:0%;
+        opacity:1;
     }
     5% {
         left:10%;
@@ -169,11 +174,11 @@ header .stuts span {
     }
     25% {
         left:100%;
-        opacity:0;
+        opacity:1;
     }
     100% {
         left:100%;
-        opacity:0;
+        opacity:1;
     }
 }
 
@@ -182,7 +187,7 @@ header .stuts span {
   
     color:#ffffff;
     font-size:40px;
-    left:50%;
+    left:0%;
     margin:0 auto;
     padding:20px;
     position:absolute;
